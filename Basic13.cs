@@ -7,32 +7,32 @@ class Program
 {
     static void Main()
     {
-        //PrintNumbers();
+        PrintNumbers();
 
-        //PrintOdds();
+        PrintOdds();
 
-        //PrintSum();
+        PrintSum();
 
         int[] numArray1 = { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
-        //LoopArray(numArray1);
+        LoopArray(numArray1);
 
         int[] numArray2 = { 0, -10, 20, -30, 40, -50, 60, -70, -80, -90 };
-        //FindMax(numArray2);
+        FindMax(numArray2);
 
         /*int[] array = { 2, 10, 3 };*/
-        //GetAverage(numArray);
+        GetAverage(numArray);
 
-        //OddArray();
+        OddArray();
 
-        //GreaterThanY(numArray1, 60);
+        GreaterThanY(numArray1, 60);
 
-        //SquareArrayValues(numArray2);
+        SquareArrayValues(numArray2);
 
-        //EliminateNegatives(numArray2);
+        EliminateNegatives(numArray2);
 
 
 
-        //MinMaxAverage(numArray1);
+        MinMaxAverage(numArray1);
 
         ShiftValues(numArray1);
 
