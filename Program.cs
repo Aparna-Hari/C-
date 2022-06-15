@@ -1,19 +1,33 @@
-﻿// 2.Write a C# Sharp program to print the sum of two numbers
+using Microsoft.EntityFrameworkCore;
+using CRUDelicious.Models;
 
+var builder = WebApplication.CreateBuilder(args);
 
-using System;
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+builder.Services.AddSession();
 
-class Program
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<CRUDContext>(options =>
 {
-	static void Main()
-	{
-		Console.WriteLine("Enter two numbers");
-		 int a = Convert.ToInt32(Console.ReadLine());
-		 int b = Convert.ToInt32(Console.ReadLine());
-		int sum = a + b;
-		int div = a / b;	
-		Console.WriteLine("Sum of two numbers is {0}: ", sum);
-		Console.WriteLine("Division  of two numbers is {0}: ", div);
-	}
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
+
+var app = builder.Build();
+
+app.UseStaticFiles();
+app.UseRouting();
+app.UseAuthorization();
+app.UseSession();
+
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
 }
 
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.Run();

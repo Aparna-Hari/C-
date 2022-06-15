@@ -1,0 +1,18 @@
+@* 
+    @model lower m to specify the TYPE of data that is being used for the ViewModel
+    @Model capital m is used to access the DATA inside of the object passed into the page
+*@
+
+
+@model List<Dish>
+
+<h1>Welcome to CRUDelicious </h1>
+
+<p>Checkout some recent dishes!  <a asp-controller="Dishes" asp-action="New">Add Dish</a> </p>
+
+
+@foreach (Dish dish in Model)
+{
+    <h3>Name: @dish.Name</h3>
+    <h6>By : @dish.Chef <a  asp-controller="Dishes" asp-action = "Details", asp-route-dishId="@dish.DishId">ViewDetails</a></h6><br>
+}

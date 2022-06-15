@@ -1,0 +1,20 @@
+@model Dish
+
+<h1> @Model.Name</h1>
+
+<p>Calories : @Model.Calories</p>
+<p>Chef's Name: @Model.Chef</p>
+<p>Tastiness: @Model.Tastiness</p>
+<p>Created at : @Model.CreatedAt</p>
+<p>Updated at : @Model.UpdatedAt</p>
+
+
+<a asp-controller ="Dishes"
+asp-action="Edit"
+asp-route-dishId = "@Model.DishId"><button>Edit</button></a>
+
+
+<form asp-controller="Dishes" asp-action="Delete" 
+asp-route-dishID="@Model.DishId" method="POST" >
+<button>Delete</button>
+</form>
