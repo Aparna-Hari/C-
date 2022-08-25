@@ -1,0 +1,18 @@
+@model Dish
+
+    <a href="/">Home</a>
+    <h1>@Model.Name - made by:@Model.Chef</h1>
+
+    <p>Calories: @Model.Calories</p>
+    <p>Tastiness: @Model.Tastiness</p>
+    <p>Desription: @Model.Description</p>
+    <p> Updated at: @Model.UpdatedAt</p>
+
+<a asp-controller ="Dishes"
+asp-action="Edit"
+asp-route-dishId = "@Model.DishId"><button>Edit</button></a>
+
+
+<a asp-controller ="Dishes"
+asp-action="DeleteDish"
+asp-route-dishId = "@Model.DishId"><button>Delete</button></a>
