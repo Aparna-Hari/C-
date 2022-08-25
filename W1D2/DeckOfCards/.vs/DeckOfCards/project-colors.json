@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "780e2c7c-61cd-4503-a135-c124a9de4c7d": {
+      "ProjectGuid": "780e2c7c-61cd-4503-a135-c124a9de4c7d",
+      "DisplayName": "DeckOfCards",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

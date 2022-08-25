@@ -1,0 +1,15 @@
+C:\Users\hvapa\source\repos\DeckOfCards\bin\Debug\net6.0\DeckOfCards.exe
+C:\Users\hvapa\source\repos\DeckOfCards\bin\Debug\net6.0\DeckOfCards.deps.json
+C:\Users\hvapa\source\repos\DeckOfCards\bin\Debug\net6.0\DeckOfCards.runtimeconfig.json
+C:\Users\hvapa\source\repos\DeckOfCards\bin\Debug\net6.0\DeckOfCards.dll
+C:\Users\hvapa\source\repos\DeckOfCards\bin\Debug\net6.0\ref\DeckOfCards.dll
+C:\Users\hvapa\source\repos\DeckOfCards\bin\Debug\net6.0\DeckOfCards.pdb
+C:\Users\hvapa\source\repos\DeckOfCards\obj\Debug\net6.0\DeckOfCards.csproj.AssemblyReference.cache
+C:\Users\hvapa\source\repos\DeckOfCards\obj\Debug\net6.0\DeckOfCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hvapa\source\repos\DeckOfCards\obj\Debug\net6.0\DeckOfCards.AssemblyInfoInputs.cache
+C:\Users\hvapa\source\repos\DeckOfCards\obj\Debug\net6.0\DeckOfCards.AssemblyInfo.cs
+C:\Users\hvapa\source\repos\DeckOfCards\obj\Debug\net6.0\DeckOfCards.csproj.CoreCompileInputs.cache
+C:\Users\hvapa\source\repos\DeckOfCards\obj\Debug\net6.0\DeckOfCards.dll
+C:\Users\hvapa\source\repos\DeckOfCards\obj\Debug\net6.0\ref\DeckOfCards.dll
+C:\Users\hvapa\source\repos\DeckOfCards\obj\Debug\net6.0\DeckOfCards.pdb
+C:\Users\hvapa\source\repos\DeckOfCards\obj\Debug\net6.0\DeckOfCards.genruntimeconfig.cache
