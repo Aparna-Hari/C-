@@ -1,0 +1,36 @@
+@model Hobby
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div style="display: flex; justify-content: space-evenly; width: 150px;">
+            <a asp-controller="Hobby" asp-action="AllHobbies">AllHobbies</a>
+            <a asp-controller="User" asp-action="Logout">Logout</a>
+        </div>
+        <h1>Hobby Name: @Model.HobbyName </h1>
+        <h4>Description:@Model.Description </h4>
+        
+    </div><br><br>
+    <div>
+            <h2>@Model.HobbyName Enthusiasts:</h2>
+
+            @foreach (EnthusiastList e in Model.EnthusiasmList)
+            {
+                <h3>@e.User.FirstName @e.User.LastName</h3>
+
+                
+            }
+    </div><br><br>
+    
+    <h3>Become an Enthusiast: </h3>
+    <a asp-controller="Hobby" asp-action="Enthusiast"  asp-route-hobbyId="@Model.HobbyId" class="btn btn-outline-primary">Add to Hobbies</a>
+    
+</body>
+</html>

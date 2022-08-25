@@ -1,0 +1,33 @@
+@model Hobby
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div style="display: flex; align-items: center; justify-content: space-evenly">
+            <h1>Create a Hobby</h1>
+            <div style="display: flex; justify-content: space-evenly; width: 150px;">
+                <a asp-controller="Hobby" asp-action="AllHobbies">AllHobbies</a>
+            </div>
+        </div>
+        <form asp-controller="Hobby" asp-action="Create" method="POST">
+            <div>
+                <label asp-for="HobbyName" class="form-label"></label>
+                <span asp-validation-for="HobbyName" style="color: red; font-weight: bold;"></span>
+                <input asp-for="HobbyName" class="form-control">
+            </div>
+            <div>
+                <label asp-for="Description" class="form-label"></label>
+                <span asp-validation-for="Description" style="color: red; font-weight: bold;"></span>
+                <input asp-for="Description" class="form-control">
+            </div>
+            
+            <br>
+            <button type="submit" class="btn btn-outline-success">Create a Hobby</button>
+        </form>
+    </body>
+</html>
