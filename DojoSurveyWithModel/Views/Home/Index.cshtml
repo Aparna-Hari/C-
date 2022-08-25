@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+@model DojoSurveyWithModel.Models.Survey;
+
+    <h1>Dojo Survey Index</h1>
+    <div class="container">
+        <link rel="stylesheet" href="~/css/style.css">
+        <form asp-action = "Submit" asp-controller="Home" method = "post">
+            <span asp-validation-for="Name"></span>
+            <label  asp-for="Name">Your Name</label>
+            <input type="text" asp-for="Name"/><br><br>
+
+            <span asp-validation-for="Location"></span>
+            <label  asp-for="Location">Dojo</label>
+            <select name="Location" >
+                <option value="SanJose">SanJose</option>
+                <option value="Seattle">Seattle</option>
+                <option value="NewYork">NewYork</option>
+                <option value="SanDiego">SanDiego</option>
+            </select><br><br>
+
+            <label  asp-for="Language">Favorite Language</label>
+            <select name="Language" >
+                <option value="C#">C#</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Mern">Mern</option>
+            </select><br><br>
+
+            <label  asp-for="Comment">Comments(optional)</label>
+            <span asp-validation-for="Comment"></span>
+            <input type="text" name="Comment"/><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+

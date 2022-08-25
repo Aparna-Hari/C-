@@ -1,0 +1,32 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DojoSurveyWithModel
+build_property.RootNamespace = DojoSurveyWithModel
+build_property.ProjectDir = C:\Users\hvapa\OneDrive\Desktop\Coding_dojo\CSharp\W1D4\DojoSurveyWithModel\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\hvapa\OneDrive\Desktop\Coding_dojo\CSharp\W1D4\DojoSurveyWithModel
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/hvapa/OneDrive/Desktop/Coding_dojo/CSharp/W1D4/DojoSurveyWithModel/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hvapa/OneDrive/Desktop/Coding_dojo/CSharp/W1D4/DojoSurveyWithModel/Views/Home/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hvapa/OneDrive/Desktop/Coding_dojo/CSharp/W1D4/DojoSurveyWithModel/Views/Shared/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hvapa/OneDrive/Desktop/Coding_dojo/CSharp/W1D4/DojoSurveyWithModel/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
