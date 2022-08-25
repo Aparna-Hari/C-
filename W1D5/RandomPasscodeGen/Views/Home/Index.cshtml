@@ -1,0 +1,11 @@
+﻿
+
+<div>
+    <form asp-controller="Home" asp-action="NewPasscode" method="POST">
+            <h2>Random passcode : (passcode # @Context.Session.GetInt32("Count"))</h2>
+        <div class="border border-dark border-3">
+            <p>@Context.Session.GetString("Passcode")</p>
+        </div>
+        <button class = "btn btn-info" type = "submit">Generate</button>
+    </form>
+</div>
