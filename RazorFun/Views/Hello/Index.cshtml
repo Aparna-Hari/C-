@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+    </head>
+    <body>
+        <div>
+        @{
+            <h1>Here are some delicious foods!</h1>
+            var StringList = new List<string>
+                {
+                    "Apple Pie",
+                    "Burritos",
+                    "Clams Casino",
+                    "Donuts"
+                };
+
+                foreach(var food in StringList)
+                {
+                    if(food.StartsWith("C"))
+                    {
+                        <p style = "color:red;">@food</p>
+                    }
+                    else{
+                        <p>@food</p>
+                    }
+                    
+                }
+        }
+        </div>
+    </body>
+</html>
+
