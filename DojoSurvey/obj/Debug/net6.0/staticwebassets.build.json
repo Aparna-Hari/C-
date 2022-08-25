@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "PIPEAdKnVBZ5eqE7grNVa5YhrILza9BybXrJYw7SMl8=",
+  "Source": "DojoSurvey",
+  "BasePath": "_content/DojoSurvey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DojoSurvey\\wwwroot",
+      "Source": "DojoSurvey",
+      "ContentRoot": "C:\\Users\\hvapa\\OneDrive\\Desktop\\Coding_dojo\\CSharp\\W1D3\\DojoSurvey\\wwwroot\\",
+      "BasePath": "_content/DojoSurvey",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
