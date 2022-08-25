@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "7mpEGka9n+xbw+lN3313ZwbhmNdUEXWvMkEygVgXl9w=",
+  "Source": "ViewModelFun",
+  "BasePath": "_content/ViewModelFun",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ViewModelFun\\wwwroot",
+      "Source": "ViewModelFun",
+      "ContentRoot": "C:\\Users\\hvapa\\OneDrive\\Desktop\\Coding_dojo\\CSharp\\W1D4\\ViewModelFun\\wwwroot\\",
+      "BasePath": "_content/ViewModelFun",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
